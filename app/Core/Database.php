@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Classes;
+namespace App\Core;
 
 
 class Database

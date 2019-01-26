@@ -9,7 +9,8 @@
 namespace App\Models;
 
 
-use App\Classes\DBWrapper;
+
+use App\Core\DBWrapper;
 
 class User extends DBWrapper
 {
