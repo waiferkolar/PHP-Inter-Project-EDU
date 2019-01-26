@@ -1,5 +1,6 @@
 <?php
 
+if (!isset($_SESSION)) session_start();
 require_once "../vendor/autoload.php";
 
 define("DB_HOST", "localhost");
