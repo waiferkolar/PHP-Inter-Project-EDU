@@ -8,10 +8,10 @@ require_once "../vendor/autoload.php";
 
 define("DB_HOST", "localhost");
 define("DB_USER", "root");
-define("DB_NAME", "aio");
+define("DB_NAME", "hacky");
 define("DB_PASS", "");
 
-define("APP_ROOT", realpath(__DIR__."/../"));
-define("BASE_URL","http://localhost/Job/PHP-Inter-Class-Project/public/");
+define("APP_ROOT", realpath(__DIR__ . "/../"));
+define("BASE_URL", "http://localhost/Job/PHP-Inter-Class-Project/public/");
 
 $router = new Router();

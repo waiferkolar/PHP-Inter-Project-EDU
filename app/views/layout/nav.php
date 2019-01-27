@@ -1,7 +1,7 @@
 <div class="container-fluid bg-info">
     <!--    Nav Start-->
     <nav class="container navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand text-white" href="#">Navbar</a>
+        <a class="navbar-brand text-white" href="<?php echo url(""); ?>">Online Shopping</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -13,7 +13,7 @@
                     <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Link</a>
+                    <a class="nav-link text-white" href="<?php echo url("User/login"); ?>">Login</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle  text-white" href="#" id="navbarDropdown" role="button"
